@@ -117,6 +117,7 @@
         margin-bottom: 62px;
         font-weight: 200;
         margin-top: 36px;
+        width: 100%;
     }
 
     .action-button{
@@ -751,9 +752,7 @@
     /* Responsive */
 
     @media screen and (max-width: 1268px){
-        .intro{
-            flex-wrap: nowrap;
-        }
+        
 
         .intro-content{
             width: 50%;
@@ -877,6 +876,8 @@
 
         .contacts{
             padding: 1vw;
+            min-width: 350px;
+            width: 100%;
         }
     } 
 
@@ -909,10 +910,27 @@
         .intro__link{
             width: 100%;
         }
-        .intro-heading{
+        .intro__heading{
             font-size: 40px;
         }
+
+        .intro__image{
+            width: 350px;
+            height: 140px;
+        }
     }
+
+    @media  screen and (max-width: 400px) {
+        .intro__heading{
+            font-size: 30px;
+        }
+
+        .intro__text{
+            font-size: 15px;
+        }
+    }
+        
+    
 
     /* Popup-menu */
 
